@@ -9,13 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codemirror/lang-javascript": "^6.1.4",
     "@types/styled-components": "^5.1.26",
-    "@uiw/react-textarea-code-editor": "^2.1.1",
+    "@uiw/codemirror-theme-dracula": "^4.19.9",
+    "@uiw/react-codemirror": "^4.19.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.8.2",
     "styled-components": "^5.3.8"
   },
   "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",

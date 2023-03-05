@@ -11,5 +11,6 @@ body {
   font-family: "Inter";
 }
 
-/* #81FBB8 */
-
+button {
+  cursor: pointer;
+}

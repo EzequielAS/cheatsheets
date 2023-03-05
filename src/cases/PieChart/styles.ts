@@ -1,16 +1,16 @@
 import styled from 'styled-components'
 
 interface PieChartContentProps {
-  percentage: number;
+  percentage: number
 }
 
 export const PieChartContainer = styled.div`
   position: relative;
+  width: 12rem;
+  height: 12rem;
 `
 
 export const PieChartContent = styled.svg<PieChartContentProps>`
-  width: 12rem;
-  height: 12rem;
   transform: rotate(-90deg);
 
   circle {
@@ -24,7 +24,8 @@ export const PieChartContent = styled.svg<PieChartContentProps>`
     }
 
     &:nth-child(2) {
-      stroke-dashoffset: ${props => `calc(618px - (618px * ${props.percentage}) / 100)`}; 
+      stroke-dashoffset: ${(props) =>
+        `calc(618px - (618px * ${props.percentage}) / 100)`};
       stroke-linecap: round;
 
       animation: progress 1s ease-in-out;
