@@ -5,7 +5,7 @@ import { ViewBox } from '../components/ViewBox'
 export function HasHoverPage() {
   return (
     <ViewBox>
-      <Header title=":has :hover Animation" />
+      <Header title=":has:hover Animated" />
       <HasHover />
     </ViewBox>
   )

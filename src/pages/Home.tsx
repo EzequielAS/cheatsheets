@@ -7,7 +7,8 @@ export function Home() {
     <ViewBox>
       <Header title="Cheetsheets" />
       <Button to="/piechart">PieChart</Button>
-      <Button to="/hashover">:has with :hover animation</Button>
+      <Button to="/hashover">:has with :hover Animated</Button>
+      <Button to="/summarytable">Summary Table</Button>
     </ViewBox>
   )
 }
