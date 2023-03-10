@@ -1,6 +1,4 @@
 export const SummaryTableCode = `
-import { CodeViewer } from '../../components/CodeViewer'
-
 import { SummaryTableContainer } from './styles'
 
 const habits = [...new Array(100)].map((_, index) => index + 1)
