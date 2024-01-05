@@ -9,6 +9,7 @@
 body {
   background: #292738;
   font-family: "Inter";
+  overflow-x: hidden;
 }
 
 button {

@@ -9,6 +9,7 @@ export function Home() {
       <Button to="/piechart">PieChart</Button>
       <Button to="/hashover">:has with :hover Animated</Button>
       <Button to="/summarytable">Summary Table</Button>
+      <Button to="/scrollanimations">Scroll Animations</Button>
     </ViewBox>
   )
 }
